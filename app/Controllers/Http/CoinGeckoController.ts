@@ -1,5 +1,5 @@
 import type { HttpContextContract } from '@ioc:Adonis/Core/HttpContext'
-import CoinGeckoServices from 'App/Services/coinGecko';
+import CoinGeckoServices from 'App/Services/CoinGecko';
 
 export default class CoinGeckoController {    
     
