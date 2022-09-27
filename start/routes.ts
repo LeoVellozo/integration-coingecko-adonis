@@ -24,6 +24,10 @@ Route.get('/', async () => {
   return { hello: 'world' };
 })
 
-Route.get('/healthz',async () => {
-  return { all: 'good'};
+Route.get('/healthz', async () => {
+  return { result: 'all good'};
 })
+
+Route.get('/coingecko', 'CoinGeckoController.index');
+
+Route.get("/coingecko/:id", 'CoinGeckoController.checkId');

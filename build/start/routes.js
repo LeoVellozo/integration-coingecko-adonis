@@ -8,6 +8,6 @@ Route_1.default.get('/', async () => {
     return { hello: 'world' };
 });
 Route_1.default.get('/healthz', async () => {
-    return { all: 'good' };
+    return { result: 'all good' };
 });
 //# sourceMappingURL=routes.js.map
