@@ -5,6 +5,7 @@ This project
 this project used adonis (for more information check adonis documentation) and routes at API coinGecko
 
 if you want to change the routes acess(star/routes.ts).
+
 if you want to show oder coins change coin 'bitcoin' at file app/Services/CoinGecko.ts
 
 
