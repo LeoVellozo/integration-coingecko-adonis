@@ -19,7 +19,7 @@ export default class CoinGeckoServices {
         return currency;
     }
 
-    public static async getBitctoinPrice(url){
+    public static async getBitctoinPrice(url : string){
 
         let currency = {
             coin: 'bitcoin',

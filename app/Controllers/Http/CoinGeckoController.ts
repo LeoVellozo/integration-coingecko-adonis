@@ -6,7 +6,8 @@ export default class CoinGeckoController {
 
     public async index() {       
        
-        return CoinGeckoServices.getBitcoinPrices();
+        return await CoinGeckoServices.getBitcoinPrices();
+    
     }
 
     public async checkId(ctx: HttpContextContract){
