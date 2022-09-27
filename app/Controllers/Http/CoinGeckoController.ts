@@ -4,7 +4,7 @@ import CoinGeckoServices from 'App/Services/coinGecko';
 export default class CoinGeckoController {    
     
 
-    public async index(ctx: HttpContextContract) {       
+    public async index() {       
        
         return CoinGeckoServices.getBitcoinPrices();
     }
