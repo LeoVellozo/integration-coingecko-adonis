@@ -10,4 +10,6 @@ Route_1.default.get('/', async () => {
 Route_1.default.get('/healthz', async () => {
     return { result: 'all good' };
 });
+Route_1.default.get('/coingecko', 'CoinGeckoController.index');
+Route_1.default.get("/coingecko/:id", 'CoinGeckoController.checkId');
 //# sourceMappingURL=routes.js.map
